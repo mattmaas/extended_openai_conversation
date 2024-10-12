@@ -2,7 +2,7 @@
 
 This fork of **Extended OpenAI Conversation for Home Assistant** fixes tool compatibility after recent API updates, providing more functionality and error handling while staying current with OpenAI's rapidly evolving API.
 
-## Recent Improvements
+## Summary of fixes:
 
 ### 1. Enhanced API Timeout
 - Increased the OpenAI API client timeout to 6 minutes, allowing for more complex interactions and longer transcriptions without interruption.
