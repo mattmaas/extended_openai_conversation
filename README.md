@@ -1,4 +1,4 @@
-# Tool use fixes for Extended OpenAI Conversation custom component
+# Tool use fixes for Extended OpenAI Conversation
 
 This fork of **Extended OpenAI Conversation for Home Assistant** fixes tool compatibility after recent API updates, providing more functionality and error handling while staying current with OpenAI's rapidly evolving API.
 
