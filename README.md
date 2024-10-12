@@ -1,3 +1,26 @@
+# Tool use fixes for Extended OpenAI Conversation custom component
+
+This fork of **Extended OpenAI Conversation for Home Assistant** fixes tool compatibility after recent API updates, providing more functionality and error handling while staying current with OpenAI's rapidly evolving API.
+
+## Recent Improvements
+
+### 1. Enhanced API Timeout
+- Increased the OpenAI API client timeout to 6 minutes, allowing for more complex interactions and longer transcriptions without interruption.
+
+### 2. Improved Error Handling and Tool Call Response Management
+- Enhanced error handling in the `execute_tool_calls` method for greater reliability.
+- Implemented individual error handling for each tool function execution.
+- Errors during tool function execution are now logged and included in the tool response for better diagnostics.
+- The system continues processing all tool calls even if some fail, ensuring conversation continuity.
+- Added informative system messages to guide users when errors occur.
+- Fixed issues with the OpenAI agent's handling of tool call responses.
+- Improved the integration of tool call responses into the `messages` list, ensuring proper communication with the OpenAI API.
+- Each tool call is now correctly responded to and added to the messages list in the appropriate order.
+
+These improvements aim to provide a more robust and user-friendly experience while leveraging the latest features of the OpenAI API. The extended component maintains compatibility with the original project while offering enhanced capabilities for your smart home automation.
+
+Original README below:
+
 # Extended OpenAI Conversation
 This is custom component of Home Assistant.
 
